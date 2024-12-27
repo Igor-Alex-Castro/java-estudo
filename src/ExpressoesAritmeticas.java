@@ -43,5 +43,13 @@ public class ExpressoesAritmeticas {
 		 * boolean - 1 bit
 		 * ----String -> cadeia de caracteres(palavras ou textos)
 		 * */
+		
+		/*NOMES DE VARIÁVEIS
+		 * Não pode:
+		 * 	- Começar com dígito: use letra ou _ -> int _5Minutos;
+		 *  - Ter espaço em branco 
+		 *  - Usar acentos ou til -> int salario
+		 *  - Sugestao: Camel Case -> int salarioDoFunionario;
+		 * */
 	}
 }
