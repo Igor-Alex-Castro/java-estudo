@@ -36,5 +36,7 @@ public class Ex_02_Retangulo {
 		System.out.printf("AREA = %.4f%n", area );
 		System.out.printf("PERIMETRO = %.4f%n", perimetro );
 		System.out.printf("DIAGONAL = %.4f%n ", diagonal);
+		
+		
 	}	
 }
