@@ -18,7 +18,7 @@ public class Ex_10_Duracao {
 		
 		double  horas;
 		
-		System.out.println("Digite a duracao em segundos: ");
+		System.out.print("Digite a duracao em segundos: ");
 		duracaoSegundos = sc.nextInt();
 		
 		horas = duracaoSegundos/3600;
