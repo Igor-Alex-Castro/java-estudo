@@ -1,7 +1,6 @@
+
 package exercicios;
 
-import java.awt.event.KeyEvent;
-import java.util.Locale;
 import java.util.Scanner;
 
 public class Ex_04_Soma {
