@@ -56,6 +56,18 @@ public class ExpressoesCodicional {
 			
 		}
 		
+		/*  Outra maneira de escrever
+			if(horaNova  < 12) {
+				System.out.println("Bom dia");
+			}else if(horaNova < 18) {
+				System.out.println("Boa tarde");
+			}else {
+				System.out.println("Boa noite");
+		}
+		*/
+			
+	  
+		
 		sc.close();
 	}
 
