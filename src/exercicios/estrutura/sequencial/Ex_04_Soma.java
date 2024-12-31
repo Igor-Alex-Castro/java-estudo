@@ -1,5 +1,5 @@
 
-package exercicios;
+package exercicios.estrutura.sequencial;
 
 import java.util.Scanner;
 

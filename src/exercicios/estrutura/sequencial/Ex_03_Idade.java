@@ -1,4 +1,4 @@
-package exercicios;
+package exercicios.estrutura.sequencial;
 
 import java.awt.event.KeyEvent;
 import java.util.Locale;
