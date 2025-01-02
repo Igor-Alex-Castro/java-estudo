@@ -18,15 +18,13 @@ public class Temperatura {
 	   if(tempEscala == 'F' ) {
 		   System.out.print("Digite a temperatura em Fahrenheit: ");
 		   valorTemp = sc.nextDouble();
-		    valorTemp = (5.0/9.0)*(valorTemp - 32);
+		   valorTemp  = (5.0/9.0)*(valorTemp - 32);
 		   System.out.printf("Temperatura equivalente em Celsius: %.2f ", valorTemp);
-		   
 	   }else {
-		   
 		   System.out.print("Digite a temperatura em Celsius: ");
 		   valorTemp = sc.nextDouble();
 		   valorTemp = (9.0/5.0)*valorTemp + 32  ;
-		   System.out.printf("Temperatura equivalente em Fahrenheit: %.2f ", valorTemp );
+		   System.out.printf("Temperatura equivalente em Fahrenheit: %.2f ",valorTemp );
 	   }
 	   
 	   
