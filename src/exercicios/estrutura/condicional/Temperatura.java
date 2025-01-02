@@ -8,24 +8,27 @@ public class Temperatura {
 	   Locale.setDefault(Locale.US);
 	   Scanner sc = new Scanner(System.in);
 	   
-	   double lancamento1;
-	   double lancamento2;
-	   double lancamento3;
+	   char tempEscala;
+	   double valorTemp;
+	
+	   System.out.print("Voce vai digitar a temperatura em qual escala (C/F)? ");
+	   tempEscala = sc.next().charAt(0);
 	   
-	   System.out.println("Digite as tres distancias: ");
-		
-	   lancamento1 = sc.nextDouble();
-	   lancamento2 = sc.nextDouble();
-	   lancamento3 = sc.nextDouble();
-	   
-	   if(lancamento1 >= lancamento2 && lancamento1 >= lancamento3) {
-		   System.out.printf("MAIOR DISTANCIA = %.2f", lancamento1);
+	  
+	   if(tempEscala == 'F' ) {
+		   System.out.print("Digite a temperatura em Fahrenheit: ");
+		   valorTemp = sc.nextDouble();
+		    valorTemp = (5.0/9.0)*(valorTemp - 32);
+		   System.out.printf("Temperatura equivalente em Celsius: %.2f ", valorTemp);
+		   
 	   }else {
-		   if(lancamento2 > lancamento3) {
-			   System.out.printf("MAIOR DISTANCIA = %.2f", lancamento2);
-		   }else {
-			   System.out.printf("MAIOR DISTANCIA = %.2f", lancamento3);
-		   }
+		   
+		   System.out.print("Digite a temperatura em Celsius: ");
+		   valorTemp = sc.nextDouble();
+		   valorTemp = (9.0/5.0)*valorTemp + 32  ;
+		   System.out.printf("Temperatura equivalente em Fahrenheit: %.2f ", valorTemp );
 	   }
+	   
+	   
 	}
 }
