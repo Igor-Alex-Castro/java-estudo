@@ -55,6 +55,25 @@ public class Classe {
 		 * * 
 		 */
 		
+		/*Classes
+		 * Atrinutos
+		 * Metodos
+		 * Reutilização
+		 * Evitar codigos duplicados
+		 * Delegação de responsablidade
+		 * Construtores
+		 * This
+		 * Sobrecarga
+		 * Encapsulamento;
+		 * Modificacores de acesso:
+		 * 		private: nenhum lugar, ao n ser na propria classe
+		 * 		nada: so pode ser acessado na classe do mesmo pacote;
+		 * 		protected: so pode ser acessado no mesmo pacote, subsclasses de pacotes diferentes
+		 * 		public: o membro é acessado por todas a classes.
+		 * 		
+		 * */
+		
+		
 		
 	}
 }

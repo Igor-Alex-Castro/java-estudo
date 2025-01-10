@@ -11,18 +11,22 @@ public class ProgramEstoque {
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 		
-		Product product = new Product();
+		
 		
 		System.out.println("Entre com as informações do produtos: ");
 		
 		System.out.print("Nome: ");
-		product.name = sc.next();
+		String name = sc.next();
 		
 		System.out.print("Preço: ");
-		product.price = sc.nextDouble();
+		double price = sc.nextDouble();
 		
 		System.out.print("Quantidade no estoque: ");
-		product.quantity = sc.nextInt();
+		int quantity = sc.nextInt();
+		
+		Product product = new Product(name, price, quantity);
+		
+		product.setName(name);
 		
 		System.out.println();
 		System.out.println("Dados do produto: " + product.toString());
@@ -31,7 +35,7 @@ public class ProgramEstoque {
 		System.out.println();
 		System.out.print("Entre com o numero de produto a ser adicionado no estoque: ");
 		
-		int quantity = sc.nextInt();
+		quantity = sc.nextInt();
 		product.addPorudcts(quantity);
 		
 		System.out.println();
