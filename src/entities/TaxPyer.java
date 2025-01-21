@@ -1,20 +1,11 @@
 package entities;
 
-import java.security.acl.Group;
-
 public class TaxPyer {
 	Double salaryIncome;
 	Double servicesIncome;
 	Double capitalIncome;
 	Double healthSpending;
 	Double educationSpending;
-	
-	//Double salaryTax;
-	//Double servicesTax;
-	Double capitalTax;
-	Double grossTax;
-	Double taxRebate;
-	Double netTax;
 	
 	public TaxPyer(Double salaryIncome, Double servicesIncome, Double capitalIncome, Double healthSpending,
 			Double educationSpending) {
