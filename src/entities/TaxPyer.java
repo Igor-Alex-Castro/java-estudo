@@ -80,7 +80,6 @@ public class TaxPyer {
 		 return this.capitalIncome*0.20;
 	}
 	
-	
 	public Double grossTax() {
 		return salaryTax() + servicesTax() + capitalTax();
 	}
